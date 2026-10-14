@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="80" viewBox="0 0 200 80">
+  <g fill="#000">
+    <!-- armature-in-circle symbol -->
+    <path d="M40 8a32 32 0 1 0 0 64 32 32 0 0 0 0-64zm0 6a26 26 0 1 1 0 52 26 26 0 0 1 0-52z"/>
+    <path d="M28 20c-4.6 4.4-7.4 10.8-7.4 17.6S23.4 51 28 55.4V44h24v11.4c4.6-4.4 7.4-10.8 7.4-17.8S56.6 24.4 52 20v11.6H28V20z"/>
+  </g>
+  <text x="86" y="53" font-family="Arial,Helvetica,sans-serif" font-size="36" font-weight="bold" fill="#000" textLength="108" lengthAdjust="spacingAndGlyphs">BOSCH</text>
+</svg>

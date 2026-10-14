@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | GA Goods Distribution – E-commerce Specialists</title>
+  <meta name="description" content="Contact GA Goods Distribution for trade enquiries, pricing and availability. E-commerce distribution specialists based in East London.">
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <a href="index.html" class="nav-brand">
+      <img src="icon.svg" alt="GA Goods Distribution" class="nav-icon">
+      <div class="brand-text">
+        <span class="brand-name">GA Goods</span>
+        <span class="brand-sub">Distribution</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="brands.html">Our Brands</a></li>
+      <li><a href="trade.html">Trade Enquiries</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" onclick="toggleNav()" aria-label="Toggle menu">&#9776;</button>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <p class="eyebrow">Get In Touch</p>
+    <h1>GA Goods Contact</h1>
+  </div>
+
+  <!-- CONTACT SECTION -->
+  <div class="section">
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <h2>Contact Details</h2>
+        <div class="contact-items">
+          <div class="contact-item">
+            <p class="label">Email</p>
+            <a href="mailto:sales@gagoods.co.uk">sales@gagoods.co.uk</a>
+          </div>
+          <div class="contact-item">
+            <p class="label">Phone</p>
+            <a href="tel:+442030519327">020 3051 9327</a>
+          </div>
+          <div class="contact-item">
+            <p class="label">Based in</p>
+            <p>London, United Kingdom</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="partnership-panel">
+        <h2>Why Partner With Us</h2>
+        <div class="partnership-list">
+          <div class="partnership-item">
+            <span class="num">01</span>
+            <div>
+              <h3>Long-Term Relationships</h3>
+              <p>We are not here for one-off transactions. We look to build lasting partnerships with suppliers who want a consistent and committed buyer.</p>
+            </div>
+          </div>
+          <div class="partnership-item">
+            <span class="num">02</span>
+            <div>
+              <h3>Consistent Volume</h3>
+              <p>We purchase in volume and do so reliably. Suppliers benefit from a predictable recurring demand they can plan their operations around.</p>
+            </div>
+          </div>
+          <div class="partnership-item">
+            <span class="num">03</span>
+            <div>
+              <h3>Full Transparency</h3>
+              <p>Honest and straightforward communication is the foundation of how we work. Every supplier always knows exactly where they stand with us.</p>
+            </div>
+          </div>
+          <div class="partnership-item">
+            <span class="num">04</span>
+            <div>
+              <h3>Growing Together</h3>
+              <p>As an ambitious growing business we offer real value — and as we expand the opportunity for our partners expands with us.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="icon.svg" alt="GA Goods Distribution" class="footer-icon">
+        <div class="footer-brand-text">
+          <span class="brand-name">GA Goods</span>
+          <span class="brand-sub">Distribution</span>
+        </div>
+      </div>
+      <div class="footer-contacts">
+        <div class="footer-contact-block">
+          <span class="footer-label">Based in</span>
+          <p>London, United Kingdom</p>
+        </div>
+        <div class="footer-contact-block">
+          <span class="footer-label">Phone</span>
+          <a href="tel:+442030519327">020 3051 9327</a>
+        </div>
+        <div class="footer-contact-block">
+          <span class="footer-label">Email</span>
+          <a href="mailto:sales@gagoods.co.uk">sales@gagoods.co.uk</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Get Ahead Limited</p>
+      <p class="footer-legal">GA Goods Distribution is a trading name of Get Ahead Limited, registered in England and Wales. Company No. 13825163 &middot; VAT No. GB 443 738 577.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+    document.querySelectorAll('.nav-links a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        document.getElementById('navLinks').classList.remove('open');
+      });
+    });
+  </script>
+
+</body>
+</html>

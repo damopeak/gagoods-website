@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trade Enquiries | GA Goods Distribution</title>
+  <meta name="description" content="Open a trade account or wholesale partnership with GA Goods Distribution. UK specialists in e-commerce distribution seeking reliable UK, European and worldwide supply partners.">
+  <link rel="icon" type="image/svg+xml" href="icon.svg">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <nav id="navbar">
+    <a href="index.html" class="nav-brand">
+      <img src="icon.svg" alt="GA Goods Distribution" class="nav-icon">
+      <div class="brand-text">
+        <span class="brand-name">GA Goods</span>
+        <span class="brand-sub">Distribution</span>
+      </div>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="brands.html">Our Brands</a></li>
+      <li><a href="trade.html" class="active">Trade Enquiries</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" onclick="toggleNav()" aria-label="Toggle menu">&#9776;</button>
+  </nav>
+
+  <!-- PAGE HEADER -->
+  <div class="page-header">
+    <p class="eyebrow">Trade &amp; Wholesale</p>
+    <h1>Trade Enquiries</h1>
+    <p>We're actively seeking wholesale and brand-direct supply partnerships across consumer electronics, fragrances, FMCG, beauty and DIY. Use the form below to get in touch.</p>
+  </div>
+
+  <!-- TRADE SECTION -->
+  <div class="section">
+    <div class="trade-grid">
+
+      <!-- LEFT: FORM -->
+      <div class="trade-form-panel">
+        <p class="eyebrow" style="margin-bottom:12px">Get In Touch</p>
+        <h2 class="trade-panel-title">Contact Us</h2>
+        <p class="trade-panel-desc">Fill in the form and we'll get back to you promptly to discuss how we can work together.</p>
+
+        <form class="trade-form" name="trade-enquiries" method="POST" action="/thankyou.html" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="trade-enquiries">
+          <p style="display:none"><label>Don't fill this out: <input name="bot-field"></label></p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="Full name" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="company">Company Name</label>
+              <input type="text" id="company" name="company" placeholder="Your business name" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="Optional">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="enquiry-type">Enquiry Type</label>
+            <select id="enquiry-type" name="enquiry-type" required>
+              <option value="" disabled selected>Select enquiry type</option>
+              <option value="wholesale-supply">Wholesale Supply</option>
+              <option value="brand-partnership">Brand Partnership / Authorised Reseller</option>
+              <option value="import-supply">Import / Overseas Supply</option>
+              <option value="general">General Enquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell us about your products, categories, and minimum order requirements..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-accent">Send Enquiry</button>
+        </form>
+      </div>
+
+      <!-- RIGHT: SUPPLY PARTNERSHIPS -->
+      <div class="trade-supply-panel">
+        <p class="eyebrow" style="margin-bottom:12px">What We're Looking For</p>
+        <h2 class="trade-panel-title">Supply Partnerships</h2>
+        <p class="trade-panel-desc" style="margin-bottom:0">Have stock to sell? We review all offers within one working day. Get in touch with your stock list and we will come back to you with a decision promptly.</p>
+
+        <div class="supply-cards">
+          <div class="supply-card">
+            <div class="supply-card-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <h3>Wholesale Distributors</h3>
+            <p>We are expanding our network of UK/EU distribution partners across consumer electronics, FMCG, beauty and DIY. As a replenishment-driven distributor, we prioritise dependable, ongoing relationships and have the capacity to take consistent volume across a broad product range.</p>
+          </div>
+          <div class="supply-card">
+            <div class="supply-card-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+            </div>
+            <h3>Brand-Direct Relationships</h3>
+            <p>We are looking to partner with brands that want a professional, carefully managed e-commerce presence. We act as an authorised reseller with a strict commitment to MAP compliance and accurate brand representation.</p>
+          </div>
+          <div class="supply-card">
+            <div class="supply-card-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+            </div>
+            <h3>European &amp; Worldwide Import</h3>
+            <p>Established inbound supply routes across Europe and worldwide. We import directly, with the documentation and compliance processes in place to bring stock into the UK cleanly. Overseas brands and distributors are welcome to enquire on an import basis.</p>
+          </div>
+          <div class="supply-card">
+            <div class="supply-card-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+            </div>
+            <h3>Categories of Interest</h3>
+            <p>Computers &amp; Accessories, Gaming, Small Appliances, TV &amp; Audio and Smart Home, Fragrances, FMCG, Beauty &amp; Personal Care and DIY, Tools &amp; Home Improvement. Open to other categories from the right supply partner.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">
+          <img src="icon.svg" alt="GA Goods Distribution" class="footer-icon">
+          <div class="footer-brand-text">
+            <span class="brand-name">GA Goods</span>
+            <span class="brand-sub">Distribution</span>
+          </div>
+        </div>
+        <p class="footer-tagline">UK e-commerce distributor selling consumer electronics, fragrances, beauty, DIY and FMCG across UK e-commerce channels.</p>
+      </div>
+
+      <div>
+        <p class="footer-col-title">Navigation</p>
+        <ul class="footer-nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="brands.html">Our Brands</a></li>
+          <li><a href="trade.html">Trade Enquiries</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="footer-col-title">Get In Touch</p>
+        <ul class="footer-contact-list">
+          <li>
+            <svg class="footer-contact-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.8a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <a href="tel:+442030519327">020 3051 9327</a>
+          </li>
+          <li>
+            <svg class="footer-contact-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:sales@gagoods.co.uk">sales@gagoods.co.uk</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Get Ahead Limited</p>
+      <p class="footer-legal">GA Goods Distribution is a trading name of Get Ahead Limited, registered in England and Wales. Company No. 13825163 &middot; VAT No. GB 443 738 577.</p>
+    </div>
+  </footer>
+
+  <script>
+    function toggleNav() {
+      document.getElementById('navLinks').classList.toggle('open');
+    }
+    document.querySelectorAll('.nav-links a').forEach(function(link) {
+      link.addEventListener('click', function() {
+        document.getElementById('navLinks').classList.remove('open');
+      });
+    });
+  </script>
+
+</body>
+</html>

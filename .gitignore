@@ -1,0 +1,17 @@
+# Netlify local state and build output
+.netlify/
+node_modules/
+dist/
+.cache/
+
+# Secrets
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
